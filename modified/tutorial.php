@@ -94,20 +94,17 @@
     </nav>
     <center>
         <h2>Tutorial Buat Surat Izin</h2><br> <img src="img/login.jpg" class="img-rounded" height="150px"><br>
-        <p>1. Silahkan Login Kalau Sudah Daftar, Kalau Belum Silahkan Daftar di Menu Bawahnya.<br> <img
-                src="img/daftar.jpg" class="img-rounded" height="150px"><br> 2. Setelah tampilan seperti diatas silahkan
-            isikan dengan benar. Jika daftar berhasil klik Login kembali.<br> <img src="img/menu.jpg"
-                class="img-rounded" height="150px"><br> 3. Setelah Login berhasil maka kamu akan diarahkan ke manu
+        <p>1. Pada tampilan awal, kamu akan diarahkan ke manu
             dashboard dan klik "Buat Surat Izin v.1"tanpa kata Assalamualaikum Wr.Wb. <br>"Buat Surat Izin v.2" Dengan
-            kata Assalamualaikum Wr.Wb<br> <img src="img/buat.jpg" class="img-rounded" height="150px"><br> 4. Setelah
+            kata Assalamualaikum Wr.Wb<br> <img src="img/buat.jpg" class="img-rounded" height="150px"><br> 2. Setelah
             itu isikan data dengan benar tanpa terkecuali dan klik "Kirim".<br> <img src="img/cetak.jpg"
-                class="img-rounded" height="150px"><br> 5. Setelah kamu klik "Kirim" otomatis membuka halaman baru dan
+                class="img-rounded" height="150px"><br> 3. Setelah kamu klik "Kirim" otomatis membuka halaman baru dan
             klik Cetak/Print. <br>Untuk menghilangan Header dan Footer bisa klik > Setelan Lain> Dan Jangan Centang Opsi
             "Header dan Footer"<br>
     </center>
     <!-- Footer --><br>
     <footer class="container-fluid bg-4 text-center">
-        <p>Aplikasi Web dibuat oleh <a href="https://www.ansoriweb.com/">ansoriweb.com</a></p>
+        <p>2022</a></p>
     </footer>
 </body>
 
