@@ -86,8 +86,6 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="tutorial.php">Tutorial</a></li>
-                    <li><a href="about.php">Tentang Saya</a></li>
-                    <li><a href="contact.php">Kontak</a></li>
                 </ul>
             </div>
         </div>
