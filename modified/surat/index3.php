@@ -1,13 +1,13 @@
 <html>
 
 <head>
-    <title>Buat Surat Izin v.2 | Buat Surat Izin Sekolah Generator</title>
+    <title>Buat Surat Izin v.1 | Buat Surat Izin Sekolah Generator</title>
     <meta charset="utf-8">
     <link rel="icon" type="image/png" href="img/icon.png">
     <meta name="description" content="Buat Surat Izin Sekolah Kamu disini dijamin Cepat dan Mudah">
     <meta name="keywords"
-        content="Bikin Surat,surat,surat izin,make surat izin,surat sekolah,contoh surat sekolah,surat sekolah generator,surat izin generator,surat izin tidak masuk sekolah,surat sekolah,surat tdk masuk,surat izin tdk sekolah">
-    <meta name="author" content="Muhammad Farras Rayhand, Muhammad Izzaturrahman Hikmal Nurwahid, Tico Rivaldy">
+        content="Bikin SUrat,surat,surat izin,make surat izin,surat sekolah,contoh surat sekolah,surat sekolah generator,surat izin generator,surat izin tidak masuk sekolah,surat sekolah,surat tdk masuk,surat izin tdk sekolah">
+    <meta name="author" content="Ahmad Ansori">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -80,10 +80,10 @@
             <div class="navbar-header"> <button type="button" class="navbar-toggle" data-toggle="collapse"
                     data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span
                         class="icon-bar"></span> </button>
-                <a class="navbar-brand" href="../">Dashboard</a> </div>
+                <a class="navbar-brand" href="#">Dashboard</a> </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="../tutorial.php">Tutorial</a></li>
+                    <li><a href="/tutorial.php">Tutorial</a></li>
                 </ul>
             </div>
         </div>
@@ -162,7 +162,10 @@
     </div>
     <!-- Footer -->
     <footer class="footer navbar-fixed-bottom container-fluid bg-4 text-center border border-white">
-        <div class="text-center p-3 border-white">©2022</div>
+        <div class="text-center p-3 border-white">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
     </footer>
 </body>
 

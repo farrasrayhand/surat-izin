@@ -8,8 +8,8 @@
     <meta charset="UTF-8">
     <meta name="description" content="Buat Surat Izin Sekolah Kamu disini dijamin Cepat dan Mudah">
     <meta name="keywords"
-        content="Bikin SUrat,surat,surat izin,make surat izin,surat sekolah,contoh surat sekolah,surat sekolah generator,surat izin generator,surat izin tidak masuk sekolah,surat sekolah,surat tdk masuk,surat izin tdk sekolah">
-    <meta name="author" content="Ahmad Ansori">
+        content="Bikin Surat,surat,surat izin,make surat izin,surat sekolah,contoh surat sekolah,surat sekolah generator,surat izin generator,surat izin tidak masuk sekolah,surat sekolah,surat tdk masuk,surat izin tdk sekolah">
+    <meta name="author" content="Muhammad Farras Rayhand, Muhammad Izzaturrahman Hikmal Nurwahid, Tico Rivaldy">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -55,8 +55,8 @@
         }
 
         .container-fluid {
-            padding-top: 70px;
-            padding-bottom: 70px;
+            padding-top: 10px;
+            padding-bottom: 10px;
         }
 
         .navbar {
@@ -104,7 +104,7 @@ if (($a >= 6) && ($a <= 11))
 }
 else if (($a > 11) && ($a <= 15))
 {
-    echo ", Selamat Pagi !!";
+    echo ", Selamat Siang !!";
 }
 else if (($a > 15) && ($a <= 18))
 {
@@ -115,13 +115,19 @@ else
     echo ", <b> Selamat Malam :) </b>";
 }
 ?>
-        <h1>Selamat Datang!</h1> <a href="surat" class="btn btn-primary">Buat Surat
-            Izin v.1</a><br> <a href="surat/index2.php" class="btn btn-warning">Buat Surat Izin v.2</a><br> 
-            <img src="img/2.gif" class="img-rounded" height="250px">
+        <br>
+        <br>
+        <h1>Selamat Datang!</h1>
+        <h2>Ini adalah website untuk membuat Surat izin otomatis!</h2>
+        <br><br>
+        <a href="surat" class="btn btn-primary">Buat Surat
+            Izin v.1</a><br><br> <a href="surat/index2.php" class="btn btn-warning">Buat Surat Izin v.2</a><br>
+        <br>
+        <img src="img/2.gif" class="img-rounded" height="250px">
         <center>
             <!-- Footer -->
-            <footer class="container-fluid bg-4 text-center">
-                <p>2022</a></p>
+            <footer class="footer navbar-fixed-bottom container-fluid bg-4 text-center border border-white">
+                <div class="text-center p-3 border-white">©2022</div>
             </footer>
 </body>
 
