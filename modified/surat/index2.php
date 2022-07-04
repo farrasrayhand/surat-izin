@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Buat Surat Izin v.1 | Buat Surat Izin Sekolah Generator</title>
+    <title>Buat Surat Izin v.2 | Buat Surat Izin Sekolah Generator</title>
     <meta charset="utf-8">
     <link rel="icon" type="image/png" href="img/icon.png">
     <meta name="description" content="Buat Surat Izin Sekolah Kamu disini dijamin Cepat dan Mudah">
