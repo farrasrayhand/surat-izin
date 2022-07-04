@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Buat Surat Izin v.2 | Buat Surat Izin Sekolah Generator</title>
+    <title>Buat Surat Izin v.1 | Buat Surat Izin Sekolah Generator</title>
     <meta charset="utf-8">
     <link rel="icon" type="image/png" href="img/icon.png">
     <meta name="description" content="Buat Surat Izin Sekolah Kamu disini dijamin Cepat dan Mudah">
@@ -89,77 +89,107 @@
         </div>
     </nav>
     <div class="container">
-        <form class="form-horizontal" action="buat_surat.php" method="get">
+        <form class="form-horizontal" action="buat_surat2.php" method="get">
             <center>
                 <h3>Isikan Data dengan Benar!</h3><br>
             </center>
             <div class="form-group">
-                <label for="inputName3" class="col-sm-4 control-label">Nama</label>
-                <div class="col-sm-5">
+                <label for="inputName3" class="col-sm-3 control-label">Nama</label>
+                <div class="col-sm-6">
                     <input type="text" class="form-control" name="nama" id="inputName3" placeholder="Masukkan Nama">
                 </div>
             </div>
             <div class="form-group">
-                <label for="inputSekolah3" class="col-sm-4 control-label">Asal Sekolah</label>
-                <div class="col-sm-5">
+                <label for="inputSekolah3" class="col-sm-3 control-label">Asal Sekolah</label>
+                <div class="col-sm-6">
                     <input type="text" class="form-control" name="sekolah" id="inputSekolah3"
                         placeholder="Masukkan Asal Sekolah">
                 </div>
             </div>
             <div class="form-group">
-                <label for="inputKelas3" class="col-sm-4 control-label">Kelas</label>
-                <div class="col-sm-5">
+                <label for="inputKelas3" class="col-sm-3 control-label">Kelas</label>
+                <div class="col-sm-6">
                     <input type="text" class="form-control" name="kelas" id="inputKelas3" placeholder="Masukkan Kelas">
                 </div>
             </div>
             <div class="form-group">
-                <label for="inputOrtu3" class="col-sm-4 control-label">Orang Tua/Wali</label>
-                <div class="col-sm-5">
+                <label for="inputOrtu3" class="col-sm-3 control-label">Orang Tua/Wali</label>
+                <div class="col-sm-6">
                     <input type="text" class="form-control" name="ortu" id="inputOrtu3"
                         placeholder="Masukkan Nama Orang Tua/Wali">
                 </div>
             </div>
             <div class="form-group">
-                <label for="inputAlamat3" class="col-sm-4 control-label">Alamat</label>
-                <div class="col-sm-5">
+                <label for="inputAlamat3" class="col-sm-3 control-label">Alamat</label>
+                <div class="col-sm-6">
                     <input type="text" class="form-control" name="alamat" id="inputAlamat3"
                         placeholder="Masukkan Alamat">
                 </div>
             </div>
             <div class="form-group">
-                <label for="inputKota3" class="col-sm-4 control-label">Kota/Kabupaten</label>
-                <div class="col-sm-5">
+                <label for="inputKota3" class="col-sm-3 control-label">Kota/Kabupaten</label>
+                <div class="col-sm-6">
                     <input type="text" class="form-control" name="kota" id="inputkota3"
                         placeholder="Masukkan Nama Kota/Kabupaten">
                 </div>
             </div>
             <div class="form-group">
-                <label for="inputAlasan3" class="col-sm-4 control-label">Alasan</label>
-                <div class="col-sm-5">
+                <label for="inputAlasan3" class="col-sm-3 control-label">Alasan</label>
+                <div class="col-sm-6">
                     <input type="text" class="form-control" name="alasan" id="inputAlasan3"
                         placeholder="Contoh : Sakit/Izin/Lainnya">
                 </div>
             </div>
             <div class="form-group">
-                <label for="inputHari3" class="col-sm-4 control-label">Hari</label>
-                <div class="col-sm-5">
+                <label for="inputHari3" class="col-sm-3 control-label">Hari</label>
+                <div class="col-sm-6">
                     <input type="text" class="form-control" name="hari" id="inputHari3" placeholder="Masukkan Hari">
                 </div>
             </div>
             <div class="form-group">
-                <label for="inputTanggal3" class="col-sm-4 control-label">Tanggal Izin</label>
-                <div class="col-sm-5">
-                    <input data-date-format="dd-mm-yyyy" type="date" class="form-control" name="tanggal"
-                        id="inputTanggal3" placeholder="Masukkan Tanggal Tidak Masuk">
+                <label for="inputKalender3" class="col-sm-3 control-label">Tanggal Izin</label>
+                <div class="col-sm-2">
+                    <select class="form-control" name="tgl" id="inputKalender3">
+                    <option selected="selected">Tanggal</option>
+                    <?php
+                    for($a=1; $a<=31; $a+=1){
+                        echo"<option value=$a> $a </option>";
+                    }
+                    ?>
+                    </select>
                 </div>
+                <div class="col-sm-2">
+                    <select class="form-control" name="bln" id="inputKalender3">
+                    <option selected="selected">Bulan</option>
+                    <?php
+                    $bulan=array("Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember");
+                    $jlh_bln=count($bulan);
+                    for($c=0; $c<$jlh_bln; $c+=1){
+                        echo"<option value=$bulan[$c]> $bulan[$c] </option>";
+                    }
+                    ?>
+                    </select>
+                </div>
+                <div class="col-sm-2">
+                    <?php
+                    $now=date('Y');
+                    echo "<select class='form-control' name='tahun'>";
+                    echo "<option selected='selected'>Tahun</option>";
+                    for ($a=2010;$a<=$now;$a++)
+                    {
+                        echo "<option value='$a'>$a</option>";
+                    }
+                    echo "</select>";
+                    ?>
+                    </div>
             </div>
             <br>
             <center>
-            <div class="form-group">
-                <div class="col-sm-offset-4 col-sm-5">
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                <div class="form-group">
+                    <div class="col-sm-offset-3 col-sm-6">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
                 </div>
-            </div>
             </center>
         </form>
     </div>

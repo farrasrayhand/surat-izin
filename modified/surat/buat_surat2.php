@@ -24,15 +24,15 @@
 </style>
 
 <body>
-    <br><br><br><br><br>
+    <br><br>
     <div class='a'>
-        <?php echo $_GET["kota"]; ?>, <?php echo $_GET["tanggal"]; ?><br><br> Kepada Yth, <br>
+        <?php echo $_GET["kota"]; ?>, <?php echo $_GET["tgl"]; ?> <?php echo $_GET["bln"]; ?> <?php echo $_GET["tahun"]; ?><br><br> Kepada Yth, <br>
         Bapak/Ibu Guru Wali Kelas <?php echo $_GET["kelas"]; ?><br> <?php echo $_GET["sekolah"]; ?><br><br><br> </div>
     Assalamualaikum Warahmatullahi Wabarakatuh<br><br> Dengan Hormat,<br>
-    Dengan Ini saya selaku Orang Tua/Wali Murid dari:<br><br> Nama: <?php echo $_GET["nama"]; ?><br> Siswa: Kelas
-    <?php echo $_GET["kelas"]; ?> <?php echo $_GET["sekolah"]; ?><br> Alamat: <?php echo $_GET["alamat"]; ?><br><br>
+    Dengan Ini saya selaku Orang Tua/Wali Murid dari :<br><br> Nama : <?php echo $_GET["nama"]; ?><br> Kelas : 
+    <?php echo $_GET["kelas"]; ?><br> Alamat: <?php echo $_GET["alamat"]; ?><br><br>
     Memberitahukan bahwa anak saya tersebut tidak dapat mengikuti pelajaran seperti biasa pada hari
-    <?php echo $_GET["hari"]; ?> <?php echo $_GET["tanggal"]; ?> dikarenakan <u><?php echo $_GET["alasan"]; ?></u>.
+    <?php echo $_GET["hari"]; ?> <?php echo $_GET["tgl"]; ?> <?php echo $_GET["bln"]; ?> <?php echo $_GET["tahun"]; ?> dikarenakan <u><?php echo $_GET["alasan"]; ?></u>.
     <br>Oleh karena itu, Kami memohon Bapak/Ibu Guru Wali kelas <?php echo $_GET["kelas"]; ?> agar memberikan
     izin.<br><br> Demikian yang dapat kami sampaikan. Atas perhatian Bapak/Ibu kami ucapkan terimakasih.<br><br>
     Wassalamualaikum Warahmatullahi Wabarakatuh<br><br>
