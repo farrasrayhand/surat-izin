@@ -94,70 +94,73 @@
                 <h3>Isikan Data dengan Benar!</h3><br>
             </center>
             <div class="form-group">
-                <label for="inputName3" class="col-sm-2 control-label">Nama</label>
-                <div class="col-sm-10">
+                <label for="inputName3" class="col-sm-4 control-label">Nama</label>
+                <div class="col-sm-5">
                     <input type="text" class="form-control" name="nama" id="inputName3" placeholder="Masukkan Nama">
                 </div>
             </div>
             <div class="form-group">
-                <label for="inputSekolah3" class="col-sm-2 control-label">Asal Sekolah</label>
-                <div class="col-sm-10">
+                <label for="inputSekolah3" class="col-sm-4 control-label">Asal Sekolah</label>
+                <div class="col-sm-5">
                     <input type="text" class="form-control" name="sekolah" id="inputSekolah3"
                         placeholder="Masukkan Asal Sekolah">
                 </div>
             </div>
             <div class="form-group">
-                <label for="inputKelas3" class="col-sm-2 control-label">Kelas</label>
-                <div class="col-sm-10">
+                <label for="inputKelas3" class="col-sm-4 control-label">Kelas</label>
+                <div class="col-sm-5">
                     <input type="text" class="form-control" name="kelas" id="inputKelas3" placeholder="Masukkan Kelas">
                 </div>
             </div>
             <div class="form-group">
-                <label for="inputOrtu3" class="col-sm-2 control-label">Orang Tua/Wali</label>
-                <div class="col-sm-10">
+                <label for="inputOrtu3" class="col-sm-4 control-label">Orang Tua/Wali</label>
+                <div class="col-sm-5">
                     <input type="text" class="form-control" name="ortu" id="inputOrtu3"
                         placeholder="Masukkan Nama Orang Tua/Wali">
                 </div>
             </div>
             <div class="form-group">
-                <label for="inputAlamat3" class="col-sm-2 control-label">Alamat</label>
-                <div class="col-sm-10">
+                <label for="inputAlamat3" class="col-sm-4 control-label">Alamat</label>
+                <div class="col-sm-5">
                     <input type="text" class="form-control" name="alamat" id="inputAlamat3"
                         placeholder="Masukkan Alamat">
                 </div>
             </div>
             <div class="form-group">
-                <label for="inputKota3" class="col-sm-2 control-label">Kota/Kabupaten</label>
-                <div class="col-sm-10">
+                <label for="inputKota3" class="col-sm-4 control-label">Kota/Kabupaten</label>
+                <div class="col-sm-5">
                     <input type="text" class="form-control" name="kota" id="inputkota3"
                         placeholder="Masukkan Nama Kota/Kabupaten">
                 </div>
             </div>
             <div class="form-group">
-                <label for="inputAlasan3" class="col-sm-2 control-label">Alasan</label>
-                <div class="col-sm-10">
+                <label for="inputAlasan3" class="col-sm-4 control-label">Alasan</label>
+                <div class="col-sm-5">
                     <input type="text" class="form-control" name="alasan" id="inputAlasan3"
                         placeholder="Contoh : Sakit/Izin/Lainnya">
                 </div>
             </div>
             <div class="form-group">
-                <label for="inputHari3" class="col-sm-2 control-label">Hari</label>
-                <div class="col-sm-10">
+                <label for="inputHari3" class="col-sm-4 control-label">Hari</label>
+                <div class="col-sm-5">
                     <input type="text" class="form-control" name="hari" id="inputHari3" placeholder="Masukkan Hari">
                 </div>
             </div>
             <div class="form-group">
-                <label for="inputTanggal3" class="col-sm-2 control-label">Tanggal Izin</label>
-                <div class="col-sm-10">
+                <label for="inputTanggal3" class="col-sm-4 control-label">Tanggal Izin</label>
+                <div class="col-sm-5">
                     <input data-date-format="dd-mm-yyyy" type="date" class="form-control" name="tanggal"
                         id="inputTanggal3" placeholder="Masukkan Tanggal Tidak Masuk">
                 </div>
             </div>
+            <br>
+            <center>
             <div class="form-group">
-                <div class="col-sm-offset-2 col-sm-10">
+                <div class="col-sm-offset-4 col-sm-5">
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </div>
             </div>
+			</center>
         </form>
     </div>
     <!-- Footer -->
