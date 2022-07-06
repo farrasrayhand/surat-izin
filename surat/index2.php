@@ -188,12 +188,12 @@
                 <div class="form-group">
                     <div class="col-sm-offset-3 col-sm-6">
                         <button type="submit" class="btn btn-primary">Submit</button>
+                        <br><br><br><br><br><br>
                     </div>
                 </div>
             </center>
         </form>
     </div>
-    <br><br><br>
     <!-- Footer -->
     <footer class="footer navbar-fixed-bottom container-fluid bg-4 text-center border border-white">
         <div class="text-center p-3 border-white">©2022</div>
