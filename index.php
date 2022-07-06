@@ -26,7 +26,9 @@
             font-size: 16px;
         }
 
-
+        .margin {
+            margin-bottom: 45px;
+        }
 
         .bg-1 {
             background-color: #1abc9c;
