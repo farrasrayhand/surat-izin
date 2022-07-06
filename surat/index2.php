@@ -195,7 +195,7 @@
         </form>
     </div>
     <!-- Footer -->
-    <footer class="footer navbar-fixed-bottom container-fluid bg-4 text-center border border-white">
+    <footer class="container-fluid bg-4 text-center border border-white">
         <div class="text-center p-3 border-white">©2022</div>
     </footer>
 </body>
