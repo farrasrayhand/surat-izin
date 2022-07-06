@@ -56,7 +56,6 @@
 
         .container-fluid {
             padding-top: 10px;
-            padding-bottom: 10px;
         }
 
         .navbar {
