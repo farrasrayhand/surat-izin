@@ -124,6 +124,7 @@ else
             Izin v.1</a><br><br> <a href="surat/index2.php" class="btn btn-warning">Buat Surat Izin v.2</a><br>
         <br>
         <img src="img/2.gif" class="img-rounded" height="250px">
+        <br><br><br><br>
         <center>
             <!-- Footer -->
             <footer class="footer navbar-fixed-bottom container-fluid bg-4 text-center border border-white">
