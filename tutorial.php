@@ -95,7 +95,7 @@
                     kamu akan diarahkan ke manu dashboard dan klik "Buat Surat Izin v.1"tanpa kata Assalamualaikum
                     Wr.Wb. <br>"Buat Surat Izin v.2"Dengan kata Assalamualaikum Wr.Wb<br><img src="img/buat.png"
                         class="img-rounded" height="150px"><br>2. Setelah itu isikan data dengan benar tanpa terkecuali
-                    dan klik "Kirim".<br><img src="img/cetak.jpg" class="img-rounded" height="150px"><br>3. Setelah kamu
+                    dan klik "Kirim".<br><img src="img/cetak.JPG" class="img-rounded" height="150px"><br>3. Setelah kamu
                     klik "Kirim"otomatis membuka halaman baru dan klik Cetak/Print. <br>Untuk menghilangan Header dan
                     Footer bisa klik>Setelan Lain>Dan Jangan Centang Opsi "Header dan Footer"<br>
             </center>
